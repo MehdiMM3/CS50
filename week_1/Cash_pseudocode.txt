@@ -1,0 +1,21 @@
+My pseudocode:
+-asking the user for change owed
+-making sure it's valid number (between 1 and 99)
+-checking if the number is divisible by 25:
+	if yes how many 25's
+-else chcking if the number is divisible by 10:
+	if yes how many of them
+-else checking if the number is divisible by 5
+-else checking if the number is divisible by 1
+	if yes how may of them
+-everytime a number is divided the total of coins increment by 1
+-print the total of coins
+
+CS50 pseudocode:
+Prompt the user for change owed, in cents.
+Calculate how many quarters you should give customer. Subtract the value of those quarters from cents.
+Calculate how many dimes you should give customer. Subtract the value of those dimes from remaining cents.
+Calculate how many nickels you should give customer. Subtract the value of those nickels from remaining cents.
+Calculate how many pennies you should give customer. Subtract the value of those pennies from remaining cents.
+Sum the number of quarters, dimes, nickels, and pennies used.
+Print that sum.

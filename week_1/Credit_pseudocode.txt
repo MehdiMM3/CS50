@@ -1,0 +1,11 @@
+-prompt an input from the user
+-check if the checksum is valid (Luhn's algorithm)
+	-multiply every other digit by 2
+	-add every single digit together (12 become 1+2)
+	-add the total to the sum of the remaining digits of the number
+	-checking if the last digit of the result is 0 then it's valid
+-checking how many digits in a number and starting digits:
+	-if it's 15 digits and start with 34 ot 37 :AMEX
+	-if it's 13 or 16 digits and start with 4: VISA
+	-if it's 16 digits and starts with 51, 52, 53, 54 or 55: MASTERCARD
+-if none of them print : INVALID
